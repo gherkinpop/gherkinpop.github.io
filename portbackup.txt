@@ -12,14 +12,15 @@ img {
   border: 5px solid tomato;
   border-radius: 35px;
   padding: 0px;
-  width: 150px;
+  width: 100%;
+  height: auto;
 }
 
 img:hover {
-  box-shadow: 0 0 2px 10px orange;
+  box-shadow: 0 0 0px 8px orange;
 }
 th, td {
-  padding: 10px;
+  padding: 9px;
 }
 
 
@@ -33,45 +34,43 @@ th, td {
 
 <table>
   <tr>
-  <th><h2 style="color: tomato;text-decoration: underline orange double 8px">2D</h2></th>
-  <th><h2 style="color: tomato;text-decoration: underline orange double 8px">3D</h2></th>
-  <th><h2 style="color: tomato;text-decoration: underline orange double 8px">Animation</h2></th>
+  <th><h2 style="color: tomato;text-decoration: underline orange double 8px">&nbsp;2D&nbsp;</h2></th>
+  <th><h2 style="color: tomato;text-decoration: underline orange double 8px">&nbsp;3D&nbsp;</h2></th>
+  <th><h2 style="color: tomato;text-decoration: underline orange double 8px">TOON</h2></th>
   </tr>
   
 
   <tr>
 <td>
 <a target="_blank" href="2d/gpop.jpg">
-  <img src="2d/gpopt.jpg" alt="Forest" style="width:200px;height:auto;">
+  <img src="2d/gpopt.jpg" alt="Forest">
 </a>
   </td>
   <td>
 <a target="_blank" href="3d/louise.jpg">
-  <img src="3d/louiset.jpg" alt="Louise" style="width:200px;height:auto;">
+  <img src="3d/louiset.jpg" alt="Louise">
 </a>
   </td>
   <td>
 <a target="_blank" href="animation/sleepPIM.gif">
-  <img src="animation/sleepPIMt.gif" alt="Forest" style="width:200px;height:auto;">
+  <img src="animation/sleepPIMt.gif" alt="Forest">
 </a>
   </td>
   </tr>
-
-
   <tr>
   <td>
 <a target="_blank" href="2d/clyde.png">
-  <img src="2d/clydet.jpg" alt="Forest" style="width:200px;height:auto;">
+  <img src="2d/clydet.jpg" alt="Forest">
 </a>
   </td>
   <td>
 <a target="_blank" href="3d/flapjack.jpg">
-  <img src="3d/flapjackt.jpg" alt="Louise" style="width:200px;height:auto;">
+  <img src="3d/flapjackt.jpg" alt="Louise">
 </a>
   </td>
   <td>
 <a target="_blank" href="animation/mrv2021.gif">
-  <img src="animation/mrv2021t.gif" alt="Forest" style="width:200px;height:auto;">
+  <img src="animation/mrv2021t.gif" alt="Forest">
 </a>
   </td>
   </tr>
@@ -79,42 +78,25 @@ th, td {
   <tr>
   <td>
 <a target="_blank" href="2d/catvengerhunt.jpg">
-  <img src="2d/catvengerhuntt.jpg" alt="Forest" style="width:200px;height:auto;">
+  <img src="2d/catvengerhuntt.jpg" alt="Forest">
 </a>
   </td>
   <td>
 <a target="_blank" href="3d/kandk.jpg">
-  <img src="3d/kandkt.jpg" alt="Louise" style="width:200px;height:auto">
+  <img src="3d/kandkt.jpg" alt="Louise">
 </a>
   </td>
   <td>
 <a target="_blank" href="animation/heavymetal.gif">
-  <img src="animation/heavymetalt.gif" alt="Forest" style="width:200px;height:auto;">
+  <img src="animation/heavymetalt.gif" alt="Forest">
 </a>
   </td>
   </tr>
 
-  <tr>
-  <td>
-  <ul>
-  <li>Photoshop</li>
-  <li>Illustrator</li>
-  </ul>
-  </td>
-  <td>
-  <ul>
-  <li>3D Studio Max</li>
-  <li>Maya</li>
-  <li>Blender</li>
-  </ul>
-  </td>
-  <td>
-  <ul>
-  <li>TVPaint</li>
-  <li>Animate</li>
-  </ul>
-  </td>
-  </tr>
+
+
+ 
+
 </table>
 
 
