@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  color: orange;
+  background-color: #222;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+img {
+  border: 5px solid tomato;
+  border-radius: 35px;
+  padding: 0px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 10px orange;
+}
+th, td {
+  padding: 10px;
+}
+
+
+</style>
+</head>
+<body>
+<center>
+<h1>Eric Beck's Portfolio</h1>
+<p style="color:tomato">eb@ericbeck.com - 612-600-2077</p>
+
+
+<table>
+  <tr>
+  <th><h2 style="color: tomato;text-decoration: underline orange double 8px">2D</h2></th>
+  <th><h2 style="color: tomato;text-decoration: underline orange double 8px">3D</h2></th>
+  <th><h2 style="color: tomato;text-decoration: underline orange double 8px">Animation</h2></th>
+  </tr>
+  
+
+  <tr>
+<td>
+<a target="_blank" href="2d/gpop.jpg">
+  <img src="2d/gpopt.jpg" alt="Forest" style="width:200px;height:auto;">
+</a>
+  </td>
+  <td>
+<a target="_blank" href="3d/louise.jpg">
+  <img src="3d/louiset.jpg" alt="Louise" style="width:200px;height:auto;">
+</a>
+  </td>
+  <td>
+<a target="_blank" href="animation/sleepPIM.gif">
+  <img src="animation/sleepPIMt.gif" alt="Forest" style="width:200px;height:auto;">
+</a>
+  </td>
+  </tr>
+
+
+  <tr>
+  <td>
+<a target="_blank" href="2d/clyde.png">
+  <img src="2d/clydet.jpg" alt="Forest" style="width:200px;height:auto;">
+</a>
+  </td>
+  <td>
+<a target="_blank" href="3d/flapjack.jpg">
+  <img src="3d/flapjackt.jpg" alt="Louise" style="width:200px;height:auto;">
+</a>
+  </td>
+  <td>
+<a target="_blank" href="animation/mrv2021.gif">
+  <img src="animation/mrv2021t.gif" alt="Forest" style="width:200px;height:auto;">
+</a>
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+<a target="_blank" href="2d/catvengerhunt.jpg">
+  <img src="2d/catvengerhuntt.jpg" alt="Forest" style="width:200px;height:auto;">
+</a>
+  </td>
+  <td>
+<a target="_blank" href="3d/kandk.jpg">
+  <img src="3d/kandkt.jpg" alt="Louise" style="width:200px;height:auto">
+</a>
+  </td>
+  <td>
+<a target="_blank" href="animation/heavymetal.gif">
+  <img src="animation/heavymetalt.gif" alt="Forest" style="width:200px;height:auto;">
+</a>
+  </td>
+  </tr>
+
+  <tr>
+  <td>
+  <ul>
+  <li>Photoshop</li>
+  <li>Illustrator</li>
+  </ul>
+  </td>
+  <td>
+  <ul>
+  <li>3D Studio Max</li>
+  <li>Maya</li>
+  <li>Blender</li>
+  </ul>
+  </td>
+  <td>
+  <ul>
+  <li>TVPaint</li>
+  <li>Animate</li>
+  </ul>
+  </td>
+  </tr>
+</table>
+
+
+</center>
+</body>
+</html>
