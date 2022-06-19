@@ -17,23 +17,25 @@ img {
 }
 
 @media(hover: hover) and (pointer: fine) {
-    nav img:hover {
-        background: yellow;
+        img:hover {
+        box-shadow: 0 0 0px 6px orange;
     }
 }
-img:hover {
-  box-shadow: 0 0 0px 8px orange;
+@media only screen and (max-width: 600px) {
+  img:hover {
+    box-shadow: 0 0 0px 0px blue
+  }
 }
+
 th, td {
   padding: 9px;
 }
-
 
 </style>
 </head>
 <body>
 <center>
-<h1>Eric Beck's Portfolio test</h1>
+<h1>Eric Beck's Portfolio</h1>
 <p style="color:tomato">eb@ericbeck.com - 612-600-2077</p>
 
 
