@@ -10,7 +10,7 @@ body {
 }
 img {
   border: 5px solid tomato;
-  border-radius: 35px;
+  border-radius: 25px;
   padding: 0px;
   width: 100%;
   height: auto;
@@ -31,12 +31,86 @@ th, td {
   padding: 9px;
 }
 
+/* gallery specific CSS */
+
+.-fx-image-gal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 85%; /* arbitrary valye */
+  margin: 0px auto;
+}
+.-fx-gal-item {
+  max-width: 100%;
+  height: auto;
+  margin: 5px;
+  overflow: hidden;
+  border-radius: 15px;
+
+  overflow: visible;
+}
+
+.-fx-gal-image-thumb img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+
+
+
+.-fx-gal-image-thumb:focus + .-fx-gal-image-big {
+  display: block;
+}
+
+.-fx-gal-image-big {
+  display: none;
+  position: none;
+  top: 0;
+  left: 0;
+  background-color: rgba(5, 200, 15, 0.8);
+  overflow: hidden;
+
+  z-index: 999;
+  transition: all 0.3s ease;
+}
+
+.-fx-gal-image-big img {
+  max-width: 500px;
+  height: auto;
+  margin: auto;
+  position: fixed;
+  background-color: black;
+  box-shadow: 0px 0px 20px 0px rgba(255, 99, 71, 1), 0px 0px 800px 100px rgba(46, 19, 14, 1);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+iframe {
+    display:block;
+    width:100%;
+}
+
+div iframe {
+    max-width: 560px;
+    height: 315px;
+    position: fixed;
+    display: block; 
+  border-radius: 25px;
+  background-color: black;
+  box-shadow: 0px 0px 20px 0px rgba(255, 99, 71, 1), 0px 0px 800px 100px rgba(46, 19, 14, 1);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 </style>
 </head>
 <body>
 <center>
 <h1>Eric Beck's Portfolio</h1>
-<p style="color:tomato">eb@ericbeck.com - 612-600-2077</p>
+<p style="color:tomato">eb@ericbeck.com &#9724; 612-600-2077</p>
 
 
 <table>
@@ -49,62 +123,117 @@ th, td {
 
   <tr>
 <td>
-<a target="_blank" href="2d/gpop.jpg">
-  <img src="2d/gpopt.jpg" alt="Forest">
-</a>
+<div class="-fx-gal-image-thumb" tabindex="1">
+    <img src="2d/clydet.jpg">
+    </div>
+    <div class="-fx-gal-image-big">
+      <img src="2d/clyde.png">
+    </div>
   </td>
   <td>
-<a target="_blank" href="3d/louise.jpg">
-  <img src="3d/louiset.jpg" alt="Louise">
-</a>
+<div class="-fx-gal-image-thumb" tabindex="1">
+    <img src="3d/louiset.jpg">
+    </div>
+    <div class="-fx-gal-image-big">
+      <img src="3d/louise.jpg">
+    </div>
   </td>
   <td>
-<a target="_blank" href="animation/sleepPIM.gif">
-  <img src="animation/sleepPIMt.gif" alt="Forest">
-</a>
+<div class="-fx-gal-image-thumb" tabindex="1">
+    <img src="animation/sleepPIMt.gif">
+    </div>
+    <div class="-fx-gal-image-big">
+      <img src="animation/sleepPIM.gif">
+    </div>
   </td>
   </tr>
   <tr>
   <td>
-<a target="_blank" href="2d/clyde.png">
-  <img src="2d/clydet.jpg" alt="Forest">
+<div class="-fx-gal-image-thumb" tabindex="1">
+    <img src="2d/xmascardt.jpg">
+    </div>
+    <div class="-fx-gal-image-big">
+      <img src="2d/xmascard.png">
+    </div>
+  </td>
+  <td>
+<div class="-fx-gal-image-thumb" tabindex="1">
+    <img src="3d/flapjackt.jpg">
+    </div>
+    <div class="-fx-gal-image-big">
+      <img src="3d/flapjack.jpg">
+    </div>
 </a>
   </td>
   <td>
-<a target="_blank" href="3d/flapjack.jpg">
-  <img src="3d/flapjackt.jpg" alt="Louise">
-</a>
-  </td>
-  <td>
-<a target="_blank" href="animation/mrv2021.gif">
-  <img src="animation/mrv2021t.gif" alt="Forest">
-</a>
+<div class="-fx-gal-image-thumb" tabindex="1">
+    <img src="animation/mrv2021t.gif">
+    </div>
+    <div class="-fx-gal-image-big">
+      <img src="animation/mrv2021.gif">
+    </div>
   </td>
   </tr>
 
   <tr>
   <td>
-<a target="_blank" href="2d/catvengerhunt.jpg">
-  <img src="2d/catvengerhuntt.jpg" alt="Forest">
-</a>
+<div class="-fx-gal-image-thumb" tabindex="1">
+    <img src="2d/catvengerhuntt.jpg">
+    </div>
+    <div class="-fx-gal-image-big">
+      <img src="2d/catvengerhunt.jpg">
+    </div>
   </td>
   <td>
-<a target="_blank" href="3d/kandk.jpg">
-  <img src="3d/kandkt.jpg" alt="Louise">
-</a>
+<div class="-fx-gal-image-thumb" tabindex="1">
+    <img src="3d/kandkt.jpg">
+    </div>
+    <div class="-fx-gal-image-big">
+      <img src="3d/kandk.jpg">
+    </div>
   </td>
   <td>
-<a target="_blank" href="animation/heavymetal.gif">
-  <img src="animation/heavymetalt.gif" alt="Forest">
-</a>
+<div class="-fx-gal-image-thumb" tabindex="1">
+    <img src="animation/mrv2020t.gif">
+    </div>
+    <div class="-fx-gal-image-big">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_LAbFYLFHds?autoplay=1&mute=1&controls=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
   </td>
   </tr>
 
+  <tr>
+  <td>
+<div class="-fx-gal-image-thumb" tabindex="1">
+    <img src="2d/adoptedt.jpg">
+    </div>
+    <div class="-fx-gal-image-big">
+      <img src="2d/adopted.jpg">
+    </div>
+  </td>
+  <td>
+<div class="-fx-gal-image-thumb" tabindex="1">
+    <img src="3d/kirbyt.jpg">
+    </div>
+    <div class="-fx-gal-image-big">
+      <img src="3d/kirby.jpg">
+    </div>
+  </td>
+  <td>
+<div class="-fx-gal-image-thumb" tabindex="1">
+    <img src="animation/heavymetalt.gif">
+    </div>
+    <div class="-fx-gal-image-big">
+      <img src="animation/heavymetal.gif">
+    </div>
+  </td>
+  </tr>
 
-
- 
 
 </table>
+<p>
+<p>
+
 
 
 </center>
